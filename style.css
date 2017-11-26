@@ -1,0 +1,54 @@
+body
+{
+background-color:#dbb94a
+}
+
+/* DROPDOWN MENU */
+
+.dropdown{
+    
+    color:dodgerblue;
+    padding:5px;
+    font-size:25%;
+    border-width: 2px;
+    border-color:dimgray;
+    border-radius:10px;
+}
+
+
+.dropdown:hover, .dropdown:focus{
+    
+    background-color:darkgray;
+}
+
+.menu{
+    position:relative;
+    display:inline-block;
+}
+
+.menulinks{
+    
+display:none;
+position:absolute;
+    background-color: azure;
+    min-width:30%;
+    box-shadow:5px 5px 5px 5px rgba(0,0,0,0,4);
+    z-index:1;
+}
+
+.menulinks a {
+    
+    color:dodgerblue;
+    padding:10px 10px;
+    text-decoration:none;
+    display:block;
+}
+
+.menulinks a{
+    background-color:aquamarine;
+}
+
+.show{
+    
+    diaplay:block;
+}
