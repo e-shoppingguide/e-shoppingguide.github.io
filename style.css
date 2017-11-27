@@ -3,13 +3,19 @@ body
 background-color:#dbb94a
 }
 
+.logoimg{
+margin-left:40%;
+margin-top:5%;
+
+}
 /* DROPDOWN MENU */
 
 .dropdown{
-    
+    width:1000%;
+    height:15%;;
     color:dodgerblue;
     padding:5px;
-    font-size:25%;
+    font-size:75%;
     border-width: 2px;
     border-color:dimgray;
     border-radius:10px;
@@ -24,6 +30,8 @@ background-color:#dbb94a
 .menu{
     position:relative;
     display:inline-block;
+    margin-top:5%;
+    margin-left:23%;
 }
 
 .menulinks{
