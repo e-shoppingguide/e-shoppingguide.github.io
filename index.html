@@ -11,37 +11,15 @@
         </div>
         <div class=menu>
             
-            <button onclick="myfunction()"
-                    class="dropdown">MENU</button>
+            <button class="dropdown">MENU</button>
             <div id="dropbtn" class="menulinks">
             
             <a href="#">ΠΡΙΝ ΤΗΝ ΑΓΟΡΑ</a>
             <a href="#">ΚΑΤΑ ΤΗΝ ΑΠΟΣΤΟΛΗ </a>
             <a href="#">ΚΑΤΑ ΤΗΝ ΠΑΡΑΔΟΣΗ</a>
-                <a href="#">ΑΓΟΡΕΣ ΑΠΟ ΕΛΛΗNIΚΑ ΚΑΤΑΣΤΗΜΑΤΑ </a>
+            <a href="#">ΑΓΟΡΕΣ ΑΠΟ ΕΛΛΗNIΚΑ ΚΑΤΑΣΤΗΜΑΤΑ </a>
             </div>
-        
-            
-            <script>
-		function myfunction() {
-    
-document.getElementById("myDropdown").classlist.toggle("show");   
-}
-window.onclick = function(event)  {
-    if  (!event.targe.matches('.dropdown'))  {
-        var dropdowns =
-            document.getElementByClassName("menulinks");
-        var i;
-        for (i=0; i <dropdowns.length; i++){
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show'))  {
-                openDropdown.classList.remove('show');
-            }
-        }
-    }
-}
-		</script>
-            
+       
         </div>
    
     </body>
