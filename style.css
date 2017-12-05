@@ -63,3 +63,22 @@ margin-top:5%;
 .menulinks a{
     background-color:dimgrey;
 }
+
+/* WELCOME TEXT */
+
+.weltext {
+    text-align:center;
+    font-family: calibri;
+    max-width:60%;
+    margin-left:20%;
+    color:#517b99;
+    }
+#weltext {
+    font-size:170%;
+    font-family:calibri;
+    color:#517b99;
+}
+#copyright {
+    margin-top:10%;
+    text-align:center;
+}
