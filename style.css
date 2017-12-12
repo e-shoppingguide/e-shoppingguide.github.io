@@ -4,8 +4,9 @@ background-color:#dbb94a;
 }
 
 .logoimg{
-margin-left:40%;
+margin-left:45%;
 margin-top:5%;
+box-shadow:5px 5px 0px 0px rgba (0,0,0,0.3)    
 
 }
 /* DROPDOWN MENU */
@@ -33,7 +34,7 @@ margin-top:5%;
     position:relative;
     display:inline-block;
     margin-top:5%;
-    margin-left:27%;
+    margin-left:32%;
     cursor: pointer;
 }
 .menu:hover .menulinks {
@@ -72,11 +73,14 @@ margin-top:5%;
     max-width:60%;
     margin-left:20%;
     color:#517b99;
+    
+
     }
 #weltext {
     font-size:170%;
     font-family:calibri;
     color:#517b99;
+    background-color:rgba (0,0,0,0.4);
 }
 #copyright {
     margin-top:10%;
