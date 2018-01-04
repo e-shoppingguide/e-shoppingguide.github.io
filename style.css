@@ -4,10 +4,10 @@ background-color:#dbb94a;
 }
 
 .logoimg{
-margin-left:45%;
+/*margin-left:45%;*/
 margin-top:5%;
-box-shadow:5px 5px 0px 0px rgba (0,0,0,0.3)    
-
+box-shadow:5px 5px 0px 0px rgba (0,0,0,0.3) ;   
+text-align:center;
 }
 /* DROPDOWN MENU */
 #dropbtn{
@@ -33,9 +33,10 @@ box-shadow:5px 5px 0px 0px rgba (0,0,0,0.3)
 .menu{
     position:relative;
     display:inline-block;
-    margin-top:5%;
+   margin-top:5%;
     margin-left:32%;
     cursor: pointer;
+	
 }
 .menu:hover .menulinks {
     display:block;
@@ -85,7 +86,7 @@ box-shadow:5px 5px 0px 0px rgba (0,0,0,0.3)
 #copyright {
     margin-top:10%;
     text-align:center;
-<<<<<<< HEAD
+
 }
 .beforetext{
 	text-align:center;
@@ -93,8 +94,10 @@ box-shadow:5px 5px 0px 0px rgba (0,0,0,0.3)
     max-width:60%;
     margin-left:20%;
     color:#517b99;
-    
 
-=======
->>>>>>> a7d8888f2a2e996f2585cbc18a34750d9f261cca
+}
+iframe{
+	border-style:outset;
+	border-width:10px;
+	box-shadow: 10px 0px 0px 0px rgba(0,0,0,0.5);
 }
