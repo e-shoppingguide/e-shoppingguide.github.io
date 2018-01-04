@@ -1,15 +1,24 @@
 body
 {
-background-color:#dbb94a
+background-color:#dbb94a;
 }
 
-/* DROPDOWN MENU */
+.logoimg{
+margin-left:45%;
+margin-top:5%;
+box-shadow:5px 5px 0px 0px rgba (0,0,0,0.3)    
 
+}
+/* DROPDOWN MENU */
+#dropbtn{
+    background-color:darkslategray;
+}
 .dropdown{
-    
+    width:1000%;
+    height:15%;;
     color:dodgerblue;
     padding:5px;
-    font-size:25%;
+    font-size:75%;
     border-width: 2px;
     border-color:dimgray;
     border-radius:10px;
@@ -24,16 +33,23 @@ background-color:#dbb94a
 .menu{
     position:relative;
     display:inline-block;
+    margin-top:5%;
+    margin-left:32%;
+    cursor: pointer;
 }
-
+.menu:hover .menulinks {
+    display:block;
+    background-color:darkslategrey;
+}
 .menulinks{
     
-display:none;
-position:absolute;
-    background-color: azure;
+    display:none;
+    position:absolute;
+    background-color:dimgray;
     min-width:30%;
     box-shadow:5px 5px 5px 5px rgba(0,0,0,0,4);
     z-index:1;
+    width:1000%;
 }
 
 .menulinks a {
@@ -42,13 +58,40 @@ position:absolute;
     padding:10px 10px;
     text-decoration:none;
     display:block;
+    background-color:darkslategray;
 }
 
 .menulinks a{
-    background-color:aquamarine;
+    background-color:dimgrey;
 }
 
-.show{
+/* WELCOME TEXT */
+
+.weltext {
+    text-align:center;
+    font-family: calibri;
+    max-width:60%;
+    margin-left:20%;
+    color:#517b99;
     
-    diaplay:block;
+
+    }
+#weltext {
+    font-size:170%;
+    font-family:calibri;
+    color:#517b99;
+    background-color:rgba (0,0,0,0.4);
+}
+#copyright {
+    margin-top:10%;
+    text-align:center;
+}
+.beforetext{
+	text-align:center;
+    font-family: calibri;
+    max-width:60%;
+    margin-left:20%;
+    color:#517b99;
+    
+
 }
