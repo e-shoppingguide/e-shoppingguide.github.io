@@ -96,6 +96,13 @@ text-align:center;
     color:#517b99;
 
 }
+.beforetext a{
+	text-decoration:none;
+	color:cadetblue;
+}
+.beforetext a :hover{
+	color:grey;
+}
 iframe{
 	border-style:outset;
 	border-width:10px;
