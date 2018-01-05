@@ -12,9 +12,10 @@ text-align:center;
 /* DROPDOWN MENU */
 #dropbtn{
     background-color:darkslategray;
+	text-align:center;
 }
 .dropdown{
-    width:1000%;
+    width:50%;
     height:15%;;
     color:dodgerblue;
     padding:5px;
@@ -22,35 +23,41 @@ text-align:center;
     border-width: 2px;
     border-color:dimgray;
     border-radius:10px;
+	
 }
 
 
 .dropdown:hover, .dropdown:focus{
     
     background-color:darkgray;
+	
 }
 
 .menu{
     position:relative;
-    display:inline-block;
+    display:block;
    margin-top:5%;
-    margin-left:32%;
-    cursor: pointer;
-	
+  /*margin-left:32%;*/
+    cursor:grab;
+    text-align:center;
 }
 .menu:hover .menulinks {
     display:block;
+	position:relative;
     background-color:darkslategrey;
+	text-align:center;
+	margin:auto;
 }
 .menulinks{
     
     display:none;
-    position:absolute;
+    position:relative;
     background-color:dimgray;
     min-width:30%;
     box-shadow:5px 5px 5px 5px rgba(0,0,0,0,4);
     z-index:1;
-    width:1000%;
+    width:50%;
+	text-align:center;
 }
 
 .menulinks a {
