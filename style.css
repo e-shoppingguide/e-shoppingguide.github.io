@@ -95,7 +95,7 @@ text-align:center;
     text-align:center;
 
 }
-.beforetext{
+.beforetext,.apostolitext{
 	text-align:center;
     font-family: calibri;
     max-width:60%;
@@ -111,6 +111,11 @@ text-align:center;
 	color:grey;
 }
 iframe{
+	border-style:outset;
+	border-width:10px;
+	box-shadow: 10px 0px 0px 0px rgba(0,0,0,0.5);
+}
+embed{
 	border-style:outset;
 	border-width:10px;
 	box-shadow: 10px 0px 0px 0px rgba(0,0,0,0.5);
