@@ -95,7 +95,7 @@ text-align:center;
     text-align:center;
 
 }
-.beforetext,.apostolitext{
+.beforetext,.apostolitext,.deliverytext{
 	text-align:center;
     font-family: calibri;
     max-width:60%;
@@ -110,6 +110,20 @@ text-align:center;
 .beforetext a :hover{
 	color:grey;
 }
+.apostolitext a{
+    text-decoration:none;
+	color:cadetblue;
+}
+.apostolitext a :hover{
+    color:grey;
+}
+.deliverytext a{
+    text-decoration:none;
+	color:cadetblue;
+}
+.deliverytext a :hover{
+    color:grey;
+}
 iframe{
 	border-style:outset;
 	border-width:10px;
@@ -120,3 +134,12 @@ embed{
 	border-width:10px;
 	box-shadow: 10px 0px 0px 0px rgba(0,0,0,0.5);
 }
+video{
+    text-align:center;
+    border-style:outset;
+    border-color:dimgrey;
+    border-radius:15px;
+    width:720px;
+    width:576px;
+}
+
