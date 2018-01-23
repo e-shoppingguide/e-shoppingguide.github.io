@@ -1,0 +1,151 @@
+body
+{
+background-color:#dbb94a;
+}
+
+.logoimg{
+/*margin-left:45%;*/
+margin-top:5%;
+box-shadow:5px 5px 0px 0px rgba (0,0,0,0.3) ;   
+text-align:center;
+}
+/* DROPDOWN MENU */
+#dropbtn{
+    background-color:darkslategray;
+	text-align:center;
+}
+.dropdown{
+    min-width:75%;
+    max-width:125%;
+    min-height:40px;
+    max-height:80px;
+    color:dodgerblue;
+    padding:5px;
+    font-size:75%;
+    border-width: 2px;
+    border-color:dimgray;
+    border-radius:10px;
+	
+}
+
+
+.dropdown:hover, .dropdown:focus{
+    
+    background-color:darkgray;
+	
+}
+
+.menu{
+    position:relative;
+    display:block;
+   margin-top:5%;
+  /*margin-left:32%;*/
+    cursor:grab;
+    text-align:center;
+}
+.menu:hover .menulinks {
+    display:block;
+	position:relative;
+    background-color:darkslategrey;
+	text-align:center;
+	margin:auto;
+}
+.menulinks{
+    
+    display:none;
+    position:relative;
+    background-color:dimgray;
+    min-width:75%;
+    max-width:125%;
+    min-height:120px;
+    max-height:450px;
+    box-shadow:5px 5px 5px 5px rgba(0,0,0,0,4);
+    z-index:1;
+    width:50%;
+	text-align:center;
+}
+
+.menulinks a {
+    
+    color:dodgerblue;
+    padding:10px 10px;
+    text-decoration:none;
+    display:block;
+    background-color:darkslategray;
+}
+
+.menulinks a{
+    background-color:dimgrey;
+}
+
+/* WELCOME TEXT */
+
+.weltext {
+    text-align:center;
+    font-family: calibri;
+    max-width:60%;
+    margin-left:20%;
+    color:#517b99;
+    
+
+    }
+#weltext {
+    font-size:170%;
+    font-family:calibri;
+    color:#517b99;
+    background-color:rgba (0,0,0,0.4);
+}
+#copyright {
+    margin-top:10%;
+    text-align:center;
+
+}
+.beforetext,.apostolitext,.deliverytext{
+	text-align:center;
+    font-family: calibri;
+    max-width:60%;
+    margin-left:20%;
+    color:#517b99;
+
+}
+.beforetext a{
+	text-decoration:none;
+	color:cadetblue;
+}
+.beforetext a :hover{
+	color:grey;
+}
+.apostolitext a{
+    text-decoration:none;
+	color:cadetblue;
+}
+.apostolitext a :hover{
+    color:grey;
+}
+.deliverytext a{
+    text-decoration:none;
+	color:cadetblue;
+}
+.deliverytext a :hover{
+    color:grey;
+}
+iframe{
+	border-style:outset;
+	border-width:10px;
+	box-shadow: 10px 0px 0px 0px rgba(0,0,0,0.5);
+}
+embed{
+	border-style:outset;
+	border-width:10px;
+	box-shadow: 10px 0px 0px 0px rgba(0,0,0,0.5);
+}
+video{
+    text-align:center;
+    border-style:outset;
+    border-color:dimgrey;
+    border-radius:15px;
+    width:720px;
+    width:576px;
+    align-content: center;
+}
+
